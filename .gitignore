@@ -1,0 +1,20 @@
+# Environnements virtuels
+venv/
+env/
+
+# Fichiers secrets
+*.env
+
+# Fichier de base de données
+db.sqlite3
+
+# Répertoire cache Python
+__pycache__/
+
+# Clés et fichiers de configuration spécifiques
+*.py[cod]
+*.log
+
+# Fichiers de migration
+*/migrations/*.py
+!*/migrations/__init__.py
